@@ -1,0 +1,15 @@
+$breakpoint: (
+  xs: "screen and (max-width: 374px)",
+  sp: "screen and (max-width: 767px)",
+  tab: "screen and (min-width: 768px)",
+  pc: "screen and (max-width: 992px)",
+);
+
+$primary: rgb(147, 197, 114);
+$secondary: rgb(247, 181, 96);
+$text-color: rgb(85, 85, 85);
+$bg-color: rgb(249, 249, 249);
+
+$sans-self: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+    "游ゴシック", "Yu Gothic", sans-serif;
+$font-en: "Archivo Narrow", $sans-self;

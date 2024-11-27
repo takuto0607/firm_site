@@ -1,0 +1,28 @@
+@use "../global/" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: $text-color;
+  background-color: $bg-color;
+  overflow-x: hidden;
+  font-family: $sans-self;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+@include mq(pc) {
+  h1 {
+    background-color: red;
+  }
+}
